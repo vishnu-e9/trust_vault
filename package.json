@@ -1,0 +1,11 @@
+{
+  "name": "trustvault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TrustVault - Secure Document Management with Authentication and Access Control",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "node backend/server.js",
+    "dev": "npm --prefix backend run dev"
+  }
+}
